@@ -1,4 +1,4 @@
-
+#ASSIGNMENT 2 - Q1
 roll = 1024160038
 
 L = []
@@ -35,6 +35,8 @@ new_list = [x for x in L if x > avg]
 
 print("Elements greater than average:", new_list)
 
+
+#Assignment 2- Q2
 l=[70, 60, 40, 30, 20, 10, 10, 0]
 scores = tuple(L[:8])
 
@@ -70,6 +72,8 @@ print(first)
 print(second)
 print(remaining)
 
+
+#Assignment 2 - Q3
 import random
 
 roll = 1024160038
@@ -115,6 +119,9 @@ most = max(set(numbers), key=numbers.count)
 print("Most frequent number:", most)
 print("Frequency:", numbers.count(most))
 
+
+
+#Assignment 2 - Q4
 L = [1,0,2,4,1,6,0,0,3,8]
 A = {digit*7 for digit in L}
 B = {digit*9 for digit in L}
