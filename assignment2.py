@@ -148,6 +148,8 @@ A.discard(x)
 
 print("A after removing:", A)
 
+
+#Assignment 2 - Q5
 my_dict = {
     "name": "Amit",
     "roll_no": "1024160038",
